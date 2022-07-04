@@ -20,7 +20,7 @@ function createListItem(name) {
 	const li = document.createElement('li');
 
 	const heading = document.createElement('h2');
-	heading.textContent = input.value;
+	heading.textContent = name;
 
 	const deleteButton = document.createElement('button');
 	deleteButton.textContent = 'X';
